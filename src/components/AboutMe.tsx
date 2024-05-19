@@ -5,10 +5,10 @@ const AboutMe = () => {
     <div className="py-20">
       <h1>Hey, I'm Hamna</h1>
       <p>
-        I'm a software developer. Eager to contribute technical expertise and
+        Front-end developer. Eager to contribute my technical expertise and
         collaborate on innovative projects in a dynamic environment.
       </p>
-      <div className="pt-10">
+      <div className="pt-8">
         {/* technologies i use */}
         <Techstack />
       </div>

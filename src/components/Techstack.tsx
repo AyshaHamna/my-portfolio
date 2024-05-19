@@ -1,6 +1,8 @@
 const Techstack = () => {
   return (
-    <div>Techstack</div>
+    <div>
+      <h4>ReactJs | Typescript | Tailwindcss | Nodejs | Mongodb</h4>
+    </div>
   )
 }
 
