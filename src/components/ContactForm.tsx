@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "./ui/textarea";
-import { useForm as useFormspree, ValidationError } from "@formspree/react";
+import { useForm as useFormspree } from "@formspree/react";
 import { useEffect } from "react";
 
 const FormSchema = z.object({
