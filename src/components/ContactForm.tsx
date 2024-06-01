@@ -57,7 +57,7 @@ export function ContactForm() {
             <FormItem>
               <FormLabel>Name</FormLabel>
               <FormControl>
-                <Input placeholder="name" {...field} />
+                <Input placeholder="Name" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
