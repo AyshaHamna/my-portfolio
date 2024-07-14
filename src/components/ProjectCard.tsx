@@ -11,7 +11,7 @@ import { Github } from "lucide-react";
 
 const ProjectCard = () => {
   return (
-    <div>
+    <div className="m-5">
       <Card className="rounded-xl">
         <CardHeader>
           <CardTitle>HirelyAi</CardTitle>
