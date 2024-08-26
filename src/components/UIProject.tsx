@@ -25,7 +25,7 @@ export default function UIProject() {
           <CardTitle>{uiProject.name}</CardTitle>
           <CardDescription>{uiProject.techStack}</CardDescription>
         </CardHeader>
-        <CardContent className="max-h-72 overflow-auto">
+        <CardContent className="max-h-72 overflow-auto mb-8">
           <img
             src="/travel-agency-ui.png"
             alt="travel agency Web UI"
