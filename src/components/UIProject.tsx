@@ -20,7 +20,7 @@ const uiProject =
 export default function UIProject() {
   return (
     <div className="m-5">
-      <Card className="rounded-xl">
+      <Card className="rounded-xl shadow-lg shadow-zinc-900 hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
         <CardHeader>
           <CardTitle>{uiProject.name}</CardTitle>
           <CardDescription>{uiProject.techStack}</CardDescription>
@@ -29,7 +29,7 @@ export default function UIProject() {
           <img
             src="/travel-agency-ui.png"
             alt="travel agency Web UI"
-            className=""
+            className="rounded-xl"
           />
         </CardContent>
         <CardFooter className="flex gap-4">

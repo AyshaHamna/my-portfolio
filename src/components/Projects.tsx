@@ -1,5 +1,4 @@
 import ProjectCard from "./ProjectCard";
-import UIProject from "./UIProject";
 
 const Projects = () => {
   return (
@@ -8,7 +7,6 @@ const Projects = () => {
       <div className="mt-4 flex flex-col">
         {/* project card */}
         <ProjectCard />
-        <UIProject />
       </div>
     </section>
   );
