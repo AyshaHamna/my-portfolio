@@ -33,12 +33,12 @@ const projects = [
   },
   {
     name: "HirelyAi",
-    techStack: "Reactjs, Nodejs, openAi, Mongodb",
+    techStack: "Reactjs, Nodejs, openAi, Mongodb, Clerk",
     description:
       "Job Portal powered by AI, with applicant rating system based on responses.",
     image: "hirelyai-app.png",
     githubRepo: "https://github.com/AyshaHamna/ai-job-frontend",
-    link: "https://aidf-front-end-hamna.netlify.app/",
+    link: "https://ai-job-frontend.vercel.app/",
   },
 ];
 
