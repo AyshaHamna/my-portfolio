@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className="flex justify-between py-5">
       {/* github and linkedin logo */}
       <div className="flex gap-x-3 items-center">
-        <a href="https://www.linkedin.com/in/aysha-hamna-51126b1aa/">
+        <a href="https://www.linkedin.com/in/ayshahamna/">
           <Linkedin />
         </a>
         <a href="https://github.com/AyshaHamna">
