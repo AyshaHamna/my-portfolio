@@ -14,13 +14,13 @@ import { Button } from "./ui/button";
 
 const projects = [
   {
-    name: "Travel Agent UI",
-    techStack: "Figma, Nextjs, Clerk, Mongodb",
+    name: "HirelyAi",
+    techStack: "Reactjs, Nodejs, openAi, Mongodb, Clerk",
     description:
-      "Sleek and modern interface for a travel agency, showcasing destinations in Sri Lanka.",
-    image: "travel-agency-ui.png",
-    githubRepo: "https://github.com/AyshaHamna/travel-app",
-    link: "https://travel-app-srilanka.vercel.app/",
+      "Job Portal powered by AI, with applicant rating system based on responses.",
+    image: "hirelyai-app.png",
+    githubRepo: "https://github.com/AyshaHamna/ai-job-frontend",
+    link: "https://ai-job-frontend.vercel.app/",
   },
   {
     name: "AI Chat with PDF",
@@ -32,13 +32,13 @@ const projects = [
     link: "https://chat-with-pdf-challenge-hamna.vercel.app/",
   },
   {
-    name: "HirelyAi",
-    techStack: "Reactjs, Nodejs, openAi, Mongodb, Clerk",
+    name: "Travel Agent UI",
+    techStack: "Figma, Nextjs, Clerk, Mongodb",
     description:
-      "Job Portal powered by AI, with applicant rating system based on responses.",
-    image: "hirelyai-app.png",
-    githubRepo: "https://github.com/AyshaHamna/ai-job-frontend",
-    link: "https://ai-job-frontend.vercel.app/",
+      "Sleek and modern interface for a travel agency, showcasing destinations in Sri Lanka.",
+    image: "travel-agency-ui.png",
+    githubRepo: "https://github.com/AyshaHamna/travel-app",
+    link: "https://travel-app-srilanka.vercel.app/",
   },
 ];
 
