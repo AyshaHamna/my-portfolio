@@ -1,7 +1,7 @@
 const Techstack = () => {
   return (
     <div>
-      <h4>ReactJs | Typescript | Tailwindcss | Nodejs | Mongodb</h4>
+      <h4>NextJs | ReactJs | Typescript | Tailwindcss | Nodejs | Mongodb</h4>
     </div>
   )
 }
