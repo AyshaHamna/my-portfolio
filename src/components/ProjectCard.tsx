@@ -24,7 +24,7 @@ const projects = [
   },
   {
     name: "AI Chat with PDF",
-    techStack: "Nextjs, Reactjs, Clerk",
+    techStack: "Nextjs, Reactjs, Clerk, Pinecone",
     description:
       "An ongoing project that integrates PDF interaction capabilities within a chat interface, allowing users to seamlessly chat and manage PDFs.",
     image: "chat-wtih-pdf-ui.png",
