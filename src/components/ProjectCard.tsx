@@ -14,6 +14,15 @@ import { Button } from "./ui/button";
 
 const projects = [
   {
+    name: "E-commerce App",
+    techStack: "Reactjs, Tailwindcss, Nodejs, Clerk, Mongodb",
+    description:
+      "Full-stack E-commerce app handling product display, shopping cart management and order placement.",
+    image: "ecommerce-app.png",
+    githubRepo: "https://github.com/AyshaHamna/ecommerce-frontend",
+    link: "https://digix-ecommerce-frontend.vercel.app/",
+  },
+  {
     name: "HirelyAi",
     techStack: "Reactjs, Nodejs, openAi, Mongodb, Clerk",
     description:
