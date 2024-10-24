@@ -1,14 +1,3 @@
-// import {
-//   Card,
-//   CardContent,
-//   CardDescription,
-//   CardFooter,
-//   CardHeader,
-//   CardTitle,
-// } from "@/components/ui/card";
-// import { Button } from "./ui/button";
-// import { Github } from "lucide-react";
-
 import { Github } from "lucide-react";
 import { Button } from "./ui/button";
 
@@ -67,7 +56,7 @@ const ProjectCard = () => {
             />
           </div>
 
-          <div className="flex justify-between">
+          <div className="flex justify-between flex-col gap-y-3 md:flex-row">
             <div className="flex flex-col">
               <h1 className="text-xl font-semibold"> {project.name}</h1>
               <h3 className="text-sm text-muted-foreground">
