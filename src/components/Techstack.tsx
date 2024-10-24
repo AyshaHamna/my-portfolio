@@ -1,8 +1,6 @@
-import StackIcon from "tech-stack-icons";
-
 interface TechStackItemProps {
-  name: string; // The technology name (for the hover label)
-  iconName: string; // The actual name used in `StackIcon` for the icon
+  name: string;
+  src: string;
 }
 
 const TechStackHover: React.FC<{ name: string }> = ({ name }) => {
@@ -13,21 +11,21 @@ const TechStackHover: React.FC<{ name: string }> = ({ name }) => {
   );
 };
 
-const TechStackItem: React.FC<TechStackItemProps> = ({ name, iconName }) => (
+const TechStackItem: React.FC<TechStackItemProps> = ({ name, src }) => (
   <div className="relative group">
-    <StackIcon name={iconName} className="icon" />
+    <img src={src} alt={name} className="h-10 md:h-14" />
     <TechStackHover name={name} />
   </div>
 );
 
 const Techstack = () => {
   const techStacks = [
-    { name: "Next.js", iconName: "nextjs" },
-    { name: "React.js", iconName: "reactjs" },
-    { name: "TypeScript", iconName: "typescript" },
-    { name: "TailwindCSS", iconName: "tailwindcss" },
-    { name: "Node.js", iconName: "nodejs" },
-    { name: "MongoDB", iconName: "mongodb" },
+    { name: "Next.js", src: "/nextjs-icon.svg" },
+    { name: "React.js", src: "/reactjs-icon.svg" },
+    { name: "TypeScript", src: "/typescript-icon.svg" },
+    { name: "TailwindCSS", src: "/tailwindcss-icon.svg" },
+    { name: "Node.js", src: "/nodejs-icon.svg" },
+    { name: "MongoDB", src: "/mongodb-icon.svg" },
   ];
 
   return (
@@ -35,13 +33,12 @@ const Techstack = () => {
       <h2>Tech Stack</h2>
       <div className="flex items-center gap-x-5 md:gap-x-10 pt-5 flex-wrap gap-y-5">
         {techStacks.map((stack) => (
-          <TechStackItem
-            key={stack.iconName}
-            name={stack.name}
-            iconName={stack.iconName}
-          />
+          <TechStackItem key={stack.src} name={stack.name} src={stack.src} />
         ))}
       </div>
+      {/* <div>
+        <img src="/nextjs-icon.svg" alt="nextjs icon" />
+      </div> */}
     </section>
   );
 };
